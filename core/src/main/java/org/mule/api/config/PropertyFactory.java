@@ -17,7 +17,7 @@ public interface PropertyFactory
     /**
      * Creates a property using code execution.
      * 
-     * @param properties The map of properties preceeding this <factory-property>
+     * @param properties The map of properties preceding this <factory-property>
      * @return an object that will become the value of a property with a name that
      *         matches the 'name' attribute on the <factory-property> element.
      * @throws Exception

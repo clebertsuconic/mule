@@ -46,7 +46,7 @@ public interface LocalMuleClient extends MuleClient
      *         components invoked explicitly sets a return as <code>null</code>.
      * @throws org.mule.api.MuleException
      */
-    MuleMessage process(OutboundEndpoint endpoint, MuleMessage message) throws MuleException;
+    MuleMessage process (OutboundEndpoint endpoint, MuleMessage message) throws MuleException;
 
     /**
      * Will receive an event from an endpointUri determined by the URL.
